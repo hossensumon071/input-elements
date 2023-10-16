@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// import Inputs from "./components/Inputs";
+
+import SignUp from "./components/SignUp";
+
+// import ControlledForm from "./components/ControlledForm";
+// import DataBinding from "./components/DataBinding";
+// import UncontrolledForm from "./components/UncontrolledForm";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Inputs /> */}
+      {/* <UncontrolledForm/> */}
+      {/* <ControlledForm/> */}
+      {/* <DataBinding/> */}
+      <SignUp/>
     </div>
   );
 }
